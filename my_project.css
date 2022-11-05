@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* lllml */
+}
+
+
+.wrapper {
+    width: 1370px;
+    margin: 0 auto;
+}
+.first__logotype {
+    margin-top: 22px;
+    margin-right: 32px;
+}
+.first__mobile {
+    display: none;
+}
+
+.header {
+    height: 85px;
+    border-bottom: 1px solid #D6D6D6;
+    margin-bottom: 0px;
+}
+/* адо меняять */
+body {
+    
+    font-family: 'Manrope', sans-serif;
+    max-width: 1920px;
+    color: #18191F;
+}
+.link {
+    color: #18191F;
+    /* text-decoration: none; */
+    transition: all .2s;
+    padding-bottom: 4px;
+    /* border-bottom: 1px solid transparent; */
+    
+}
+/* может быть наведение*/
+.link:hover {
+    border-bottom: 1px solid #292929;
+}
+
+.link:active {
+    color: #404040;
+    /* border-bottom: 1px solid #404040; */
+}
+/* хз */
+.first__nav {
+    margin-top: 26px;
+}
+.first__logotype,
+.first__nav {
+    float: left;
+}
+/*для кнопок надо у Nурса спросить*/
+.first__nav ul {
+    list-style:none;
+}
+
+.first__nav ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.first__nav ul li:last-of-type {
+    margin-right: 0;
+}
+/* end */
+
+.first__login a {
+    float: right;
+    margin-top: 16px;
+    width: 282px;
+    height: 40px;
+}
+
+.button_big {
+    padding: 20px 50px;
+    width: 196px;
+    height: 62px;
+    margin-left: -26px;
+}
+.button:hover {
+    background-color: #8C30F5;
+}
+
+.button:active {
+    background-color: #8C30F5;
+}
+.button {
+    
+    border-radius: 8px;
+    color: #fff;
+    transition: background-color .2s;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #8C30F5;
+}
+h1 {
+    font-size: 72px;
+    line-height: 110%;
+}
+h2{
+    font-size: 48px;
+}
+.first__content h1 {
+    margin-top: 151px;
+    margin-bottom: 38px;
+    margin-left: -26px;
+
+
+
+}
+.first__background{
+    background-image: url('Background.png');
+    width: 1920px;
+    height: 860px;
+    /* margin: 0 auto; */
+    overflow: hidden;
+}
+.phone{
+    float:right;
+    padding-right: 20px;
+    margin-top: -250px;
+}
+.firm{
+    float:left;
+    max-width: 1200px;
+    display: inline-block;
+    margin-right: 64px;
+}
+.firms{
+    margin-left: 110px;
+}
+.two_line{
+    margin-top: 40px;
+    border-top: 1px solid black;
+    margin-bottom: 80px;
+    padding: 41px;
+    width: 1200px;
+    height: 110px;
+    border-bottom: 1px solid black;
+ 
+
+}
+/* h2 жазба///////////////////////////////////////*/
+.tailor_block {
+    margin: 0 auto;
+    width: 1200px;
+    height: 544px;
+
+}
+.tai{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 41px;
+
+}
+.lt{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    font-size: 18px;
+    width: 560px;
+    height: 64px;
+    line-height: 32px;
+}
+
+.icons{
+    width: 1150px;
+    height: 360px;
+    margin-left: 20px;
+}
+.icons ul li {
+ 
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+
+}
+.icon{
+    margin-top: 40px;
+
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    float: left;
+}
+.icon a {
+
+    font-weight: 200;
+    font-size: 16px;
+    width: 340px;
+    line-height: 29px;
+
+}
+.icon h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    Align: Left;
+}
+.fonblue{
+    background-image: url( "Rectangle 593 (1).svg");
+    height: 896px;
+    width: 1920px;
+    margin-top: 64px;
+    margin-bottom: 72px;
+
+
+    /* /////////////////////////////////////////////////////// */
+    float: left;
+    
+}
+.kov{
+    margin-left: 405px;
+    margin-top: 64px;
+    position: relative;
+    z-index: 5;
+}
+.real{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -50px;
+    display: inline-block;
+    width: 445px;
+    height: 128px;
+    z-index: 15;
+
+}
+.real h2{
+line-height: 64px;
+}
+.air{
+    background-color: #FFFFFF;
+    width: 445px;
+    height: 340px;
+    float: right;
+    margin-right:500px;
+    margin-top: 168px;
+}
+.firm2{
+
+    width:130px;
+    height:40px;
+    margin:30px
+}
+.kov2{
+position: absolute;
+margin-top: 104px;
+margin-left: 32px;   
+}
+.box{
+width: 349px;
+height: 128px;
+
+border-radius: 8px;
+margin-left:64px ;
+margin-top: 10px;
+line-height: 32px;
+
+}
+.ncase{
+   
+    font-size: 18px;
+    line-height: 28px;
+    width: 150px;
+    height: 28px;
+    margin-top: 24px;
+}
+.name{
+    font-weight: 700;
+}
+.namejob{
+    font-weight: 500;
+    font-size: 14px;    
+    line-height: 24px;
+    opacity: 0.5;
+}
+.hub{
+
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 456px;
+    margin-top: 100px;
+    margin-left: 590px;
+    float: left;
+
+}
+.box2{
+    width: 254px;
+    height: 224px;
+    margin-left: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+.book{
+    background-color: #FFFFFF;
+    height: 276px;
+    width: 350px;
+    float: right;
+    margin-right: 595px;
+    margin-top: 32px;
+
+}
+.box3{
+    width: 254px;
+    height: 64px;
+    margin-left: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+/* /////////////////////////////////////////////////////////////////// */
+.statistic{
+
+    width:1110px;
+    height: 172px;
+
+
+    float: left;
+    margin-left: 405px;
+    margin-bottom: 144px;
+
+}
+.our{
+    width: 540px;
+    height:128px;
+    float:left;
+}
+.txt{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+.bellow{
+    margin-top: 8px;
+    width: 540px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.twoicons{
+    width: 540px;
+    height: 172px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+.four{
+    
+    width:255px;
+    height: 66px;
+    float:left;
+
+}
+.hmany{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+ 
+    width: 192px;
+    height: 40px;
+}
+
+.txttt2{
+    width: 191px;
+    height: 26px;
+}
+.str{
+    float:right ;
+    margin-bottom: 10px;
+}
+.shef img {
+    margin-top: 20px;
+}
+
+
+.headline{
+    width: 1110px;
+    height: 540px;
+    margin-left: 405px;
+
+}
+.fifty{
+float: left;
+}
+
+.hline{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 32px;
+    
+
+}
+/* .hline a { */
+    /* float:top; */
+/* } */
+.fif{
+    float: left;
+    width: 540px;
+    height: 540px;
+}
+.herou{
+    width: 1920px;
+    height: 540px;
+    float: left;
+}
+.second{
+    float: right;
+    width: 444px;
+    height: 54px;
+    margin-top: 169px;
+
+}
+.ttex{
+
+    width: 444px;
+    height: 160px;
+    float: right;
+
+
+}
+.hrhr{
+    margin-bottom: 32px;
+}
+.ttex a{
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 320px;
+    
+}
+.op{
+    margin-bottom: 32px;
+}
+.buttt{
+    float: left;
+    width: 150px;
+    height: 30px;
+}
+.strl{
+    width: 111px;
+    height: 30px;
+    float: left;
+}
+.ka{
+    width: 30px;
+    height: 30px;
+    float: right;
+    /* margin-bottom: 15px; */
+}
+.buttt .strl {
+margin-top: 3px;
+}
+.risunk{
+    margin-top: 128px;
+    width: 1110px;
+    height: 556px;
+    float: left;
+    background-color: #FFFFFF;
+    margin-left: 400px;
+    margin-bottom: 64px;
+}
+.imageamp{
+    float:bottom;
+}
+
+.textleft{
+    float: left;
+    height: 108px;
+    width: 540px;
+    margin-bottom:48px ;
+}
+.textright{
+    width: 540px;
+    height: 96px;
+    float: right;
+padding-top: 16px;
+
+}
+.textl{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+}
+.predpos{
+    background-color: #2EC5CE;
+    width: 1920px;
+    height: 491px;
+    float: left;
+}
+.textpred{
+    width: 540px;
+    height: 355px;
+    float: left;
+    margin-left: 405px;
+    margin-top: 67px;
+    margin-bottom: 68px;
+
+
+}
+.manage{
+    width: 540px;
+    height: 128px;
+    float: left;
+    margin-bottom:8px;
+}
+.man{
+    font-weight: 800;
+font-size: 48px;
+line-height: 64px;
+}
+.down{
+    width: 540px;
+    height: 96px;
+    float: left;
+    margin-bottom:48px ;
+}
+.dow{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.play{
+    width: 282px;
+    height: 76px;
+    float: left;
+}
+.pl{
+    width: 101px;
+    height: 28px;
+    float: left;
+}
+.tt{
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.playmarket{
+    width: 282px;
+    height: 40px;
+    float: left;
+}
+.app{
+    /* float: left; */
+}
+.ni{
+    margin-right: 8px;
+}
+.playmarket a{
+    text-decoration: none;
+}
+.sot1{
+    width: 232px;
+    height: 371px;
+    float: left;
+    margin-left: 74px;
+}
+.sot2{
+    width: 232px;
+    height: 403px;
+    float: left;
+    margin-left: 47px;
+    margin-top: 87px;
+}
+.posled{
+    width: 1920px;
+    height: 280px;
+    overflow: hidden;
+    background-color: #0B0D17;
+}
+.post{
+    width: 475px;
+    height: 168px;
+}
