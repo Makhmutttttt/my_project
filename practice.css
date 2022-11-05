@@ -42,9 +42,9 @@ body {
 
 .first__login a {
     margin-top: 13px;
-    display: inline-block;
+    /* display: inline-block; */
     margin-right: 55px;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .first__login .button {
@@ -58,7 +58,7 @@ body {
 }
 
 .first__nav ul {
-    list-style: none;
+    /* list-style: none; */
 }
 
 .first__nav ul li {

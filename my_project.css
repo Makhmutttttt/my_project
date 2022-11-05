@@ -588,4 +588,94 @@ line-height: 64px;
 .post{
     width: 475px;
     height: 168px;
+    margin-left: 405px;
+    margin-top: 54px;
+    float: left;
+}
+.manu{
+    width: 475px;
+height: 64px;
+margin-top: 24px;
+}
+.manu1{
+    width: 190px;
+    height: 26px;
+
+}
+.manu1 ul li{
+float: left;
+display: inline-block;
+margin-right: 24px;
+}
+
+.manu1 ul li:last-of-type {
+    margin-right: 0;
+}
+
+
+.manu2{
+    width: 475px;
+    height: 26px;
+    margin-top: 12px;
+}
+.manu2  ul li{
+    float: left;
+    display: inline-block;
+    margin-right: 24px;
+}
+.manu2 ul li:last-of-type {
+    margin-right: 0;
+}
+.manu3{
+    width: 256px;
+    height: 24px;
+}
+.spisk{
+    /* float: left; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #ffffff;
+    /* text-decoration: none; */
+    transition: all .2s;
+    padding-bottom: 4px;
+    /* border-bottom: 1px solid transparent; */
+}
+.ppos{
+    width: 256px;
+    height: 24px;
+    margin-top: 24px;
+}
+.ssylk{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.gg{
+    width: 160px;
+height: 140px;
+float: left;
+margin-left: 475px;
+margin-top: 54px;
+}
+.bir{
+    width: 160px;
+    height: 28px;
+    float: left;
+    margin-bottom: 16px;
+}
+.eki{
+    float: left;
+    margin-bottom: 16px;
+}
+.ysh{
+    float: left;
+}
+.getbir{
+    font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #ffffff;
 }
